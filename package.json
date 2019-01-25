@@ -1,0 +1,17 @@
+{
+  "name": "huabanhuaban",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "cwa": "node_modules/.bin/cwa",
+    "count": "node lib/count.js",
+    "download": "node lib/w2d.js && node lib/s2w.js && node main-down.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "contact-akat": "git+https://github.com/AkatQuas/contact-akat",
+    "fs-extra": "^7.0.1",
+    "shelljs": "^0.8.3",
+    "sleep": "^5.2.4"
+  }
+}

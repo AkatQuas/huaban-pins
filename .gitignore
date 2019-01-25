@@ -1,0 +1,11 @@
+.DS_Store
+
+output/*
+done/*
+source/*
+worker/*
+
+!output/.gitkeep
+!done/.gitkeep
+!source/.gitkeep
+!done/.gitkeep
